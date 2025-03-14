@@ -46,3 +46,55 @@ python main2.py
 ## 📞 İletişim
 Eğer projeyle ilgili herhangi bir sorunuz varsa **issue** açarak bana ulaşabilirsiniz!
 
+-------
+
+# House Sales 2
+
+This project visualizes house sale prices using the **Folium** library to create interactive maps.
+
+## 📌 Project Description
+
+Using Python, this project analyzes house sale prices and displays the top 5 most expensive houses on a map. Data is loaded from two different CSV files and visualized using **Folium**.
+
+### 🔹 Technologies Used
+- **Python** (Pandas, NumPy, Folium)
+- **Jupyter Notebook / Google Colab**
+- **CSV data files**
+
+## 📂 File Contents
+- `main2.py` → Processes the data and generates a **Folium map** displaying the most expensive houses.
+- `house_prices_top5_map.html` → Map output (saved as an HTML file).
+
+## 🚀 Installation and Execution
+### 1️⃣ Install Required Libraries
+```bash
+pip install pandas numpy folium
+```
+
+### 2️⃣ Run the Project
+```bash
+python main2.py
+```
+After running the script, open **house_prices_top5_map.html** in a browser to view the interactive map.
+
+## 📊 Data Sources
+- `house_sales.csv` → House sale prices
+- `uszips.csv` → Latitude and longitude data by ZIP code
+
+## 🏗 Development Process
+- Merges location data with house sale prices based on ZIP codes.
+- Identifies the top 5 most expensive houses and marks them on the map.
+- Creates an interactive map using **Folium** and saves it as an HTML file.
+
+## 📚 What I Learned
+- **Merging CSV files and data manipulation with Pandas.**
+- **Creating interactive maps with Folium and using `MarkerCluster`.**
+- **Using lambda functions for data grouping and sorting.**
+- **Optimizing large dataset processing in Python.**
+- **Saving maps in HTML format and displaying them in a browser.**
+
+## 📞 Contact
+If you have any questions about the project, feel free to open an **issue**!
+
+
+
